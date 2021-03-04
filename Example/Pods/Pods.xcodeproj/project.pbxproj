@@ -34,7 +34,6 @@
 		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57221B54D014471C3D3E1925EFC917C8 /* Foundation.framework */; };
 		CB02401D9D6D22FFF52216FD2B0414DA /* TWTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1F49D0F5A49FDE8300E17DDC05BC607 /* TWTool-dummy.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D1C316D225F0893D00A05FCE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316D125F0893D00A05FCE /* ReplaceMe.m */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -117,7 +116,6 @@
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		CFC93315E3B7D6F3B8A2DF3BB8471422 /* Pods-TWTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D1C316D125F0893D00A05FCE /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Example/TWTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D1C75E490778B77535BDE8C037B956F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		E1F49D0F5A49FDE8300E17DDC05BC607 /* TWTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWTool-dummy.m"; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 		0E6A007D1FCBBA7712A051A1DD5B5F16 /* TWTool */ = {
 			isa = PBXGroup;
 			children = (
-				D1C316D125F0893D00A05FCE /* ReplaceMe.m */,
 				0684B7481B9BD7B6B300BB55E090BA4B /* Pod */,
 				71C6B06990F69AA557538F4B9E1973FD /* Support Files */,
 			);
@@ -551,7 +548,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C316D225F0893D00A05FCE /* ReplaceMe.m in Sources */,
 				CB02401D9D6D22FFF52216FD2B0414DA /* TWTool-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,7 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D1C316DD25F0894E00A05FCE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316DB25F0894E00A05FCE /* ReplaceMe.m */; };
+		D1C316EA25F08AD900A05FCE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316E825F08AD900A05FCE /* ReplaceMe.m */; };
+		D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316F425F08DDB00A05FCE /* TWTest1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +68,9 @@
 		A86EFA240863D9AB03AB9731 /* Pods-TWTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWTool_Example/Pods-TWTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B34CE9B8F63B219693C0315B /* TWTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWTool.podspec; path = ../TWTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF45F5DDA1915BABFD902209 /* Pods_TWTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1C316DB25F0894E00A05FCE /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		D1C316E825F08AD900A05FCE /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		D1C316F325F08DDB00A05FCE /* TWTest1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTest1.h; sourceTree = "<group>"; };
+		D1C316F425F08DDB00A05FCE /* TWTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTest1.m; sourceTree = "<group>"; };
 		F99B101608F8D05217DA2163 /* Pods_TWTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -100,7 +103,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				D1C316D925F0894E00A05FCE /* Classes */,
+				D1C316E625F08AD900A05FCE /* Classes */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for TWTool */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -199,13 +202,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		D1C316D925F0894E00A05FCE /* Classes */ = {
+		D1C316E625F08AD900A05FCE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D1C316DB25F0894E00A05FCE /* ReplaceMe.m */,
+				D1C316E825F08AD900A05FCE /* ReplaceMe.m */,
+				D1C316F325F08DDB00A05FCE /* TWTest1.h */,
+				D1C316F425F08DDB00A05FCE /* TWTest1.m */,
 			);
 			name = Classes;
-			path = TWTool/Classes;
+			path = ../TWTool/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,8 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1C316DD25F0894E00A05FCE /* ReplaceMe.m in Sources */,
+				D1C316EA25F08AD900A05FCE /* ReplaceMe.m in Sources */,
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
+				D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TWTool'
-  s.version          = '0.0.6'
+  s.version          = '0.0.7'
   s.summary          = 'TWTool.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'TWTool/Classes/**/*'
+  s.source_files = 'TWTool/Classes/TWTool.h'
   
   # s.resource_bundles = {
   #   'TWTool' => ['TWTool/Assets/*.png']
@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   
   # 创建文件夹
   s.subspec 'TWTest1' do |ss|
-    ss.source_files = 'TWTool/Classes/TWTest1/*'
+    ss.source_files = 'TWTool/Classes/TWTest1/*.{h,m}'
   end
 
   

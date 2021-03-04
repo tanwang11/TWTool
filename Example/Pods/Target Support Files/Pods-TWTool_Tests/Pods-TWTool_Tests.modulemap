@@ -1,0 +1,6 @@
+framework module Pods_TWTool_Tests {
+  umbrella header "Pods-TWTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

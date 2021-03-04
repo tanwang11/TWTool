@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TWTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TWTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TWTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TWTool: efdd505b6894f451950e8727ab26ebbbd61821fd
+
+PODFILE CHECKSUM: b351eca172875c5d6d0cb9ec2271406b59ad19a2
+
+COCOAPODS: 1.10.1

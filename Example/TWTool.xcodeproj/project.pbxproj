@@ -205,11 +205,19 @@
 			isa = PBXGroup;
 			children = (
 				D1C3170825F0A3EF00A05FCE /* TWTool.h */,
-				D1C316F325F08DDB00A05FCE /* TWTest1.h */,
-				D1C316F425F08DDB00A05FCE /* TWTest1.m */,
+				D1C3170E25F0A52800A05FCE /* TWTest1 */,
 			);
 			name = Classes;
 			path = ../TWTool/Classes;
+			sourceTree = "<group>";
+		};
+		D1C3170E25F0A52800A05FCE /* TWTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				D1C316F325F08DDB00A05FCE /* TWTest1.h */,
+				D1C316F425F08DDB00A05FCE /* TWTest1.m */,
+			);
+			path = TWTest1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

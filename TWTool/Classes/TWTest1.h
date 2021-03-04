@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface TWTest1 : NSObject
 
++ (void)testLog;
+
 @end
 
 NS_ASSUME_NONNULL_END

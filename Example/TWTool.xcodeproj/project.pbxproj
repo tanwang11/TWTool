@@ -68,8 +68,8 @@
 		B34CE9B8F63B219693C0315B /* TWTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWTool.podspec; path = ../TWTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF45F5DDA1915BABFD902209 /* Pods_TWTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16D927925F5C20600B55528 /* TWFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWFoundation.h; sourceTree = "<group>"; };
-		D16D927A25F5C52300B55528 /* Block+twPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Block+twPrefix.h"; sourceTree = "<group>"; };
 		D16D927B25F5C53300B55528 /* TWTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTest1.h; sourceTree = "<group>"; };
+		D16D928525F5CC8200B55528 /* Block+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Block+twPrefix.h"; sourceTree = "<group>"; };
 		D1C316F425F08DDB00A05FCE /* TWTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTest1.m; sourceTree = "<group>"; };
 		D1C3170825F0A3EF00A05FCE /* TWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTool.h; sourceTree = "<group>"; };
 		F99B101608F8D05217DA2163 /* Pods_TWTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -203,21 +203,21 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		D16D926F25F5BBDC00B55528 /* Prefix */ = {
-			isa = PBXGroup;
-			children = (
-				D16D927A25F5C52300B55528 /* Block+twPrefix.h */,
-			);
-			path = Prefix;
-			sourceTree = "<group>";
-		};
 		D16D927725F5C16200B55528 /* TWPoporFoundation */ = {
 			isa = PBXGroup;
 			children = (
 				D16D927925F5C20600B55528 /* TWFoundation.h */,
-				D16D926F25F5BBDC00B55528 /* Prefix */,
+				D16D928425F5CC7500B55528 /* Prefix */,
 			);
 			path = TWPoporFoundation;
+			sourceTree = "<group>";
+		};
+		D16D928425F5CC7500B55528 /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				D16D928525F5CC8200B55528 /* Block+twPrefix.h */,
+			);
+			path = Prefix;
 			sourceTree = "<group>";
 		};
 		D1C316E625F08AD900A05FCE /* Classes */ = {
@@ -558,13 +558,16 @@
 			baseConfigurationReference = A86EFA240863D9AB03AB9731 /* Pods-TWTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TWTool_Example.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TWTool/TWTool-Prefix.pch";
 				INFOPLIST_FILE = "TWTool/TWTool-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -574,13 +577,16 @@
 			baseConfigurationReference = 6C9084BD047AC813D8765D35 /* Pods-TWTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TWTool_Example.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TWTool/TWTool-Prefix.pch";
 				INFOPLIST_FILE = "TWTool/TWTool-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

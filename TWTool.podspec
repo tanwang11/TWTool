@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TWTool'
-  s.version          = '0.0.9'
+  s.version          = '0.0.10'
   s.summary          = 'TWTool.'
 
 # This description is used to generate tags and improve search results.
@@ -46,7 +46,12 @@ Pod::Spec.new do |s|
 
   # 创建文件夹
   s.subspec 'TWPoporFoundation' do |ss|
-    ss.source_files = 'TWTool/Classes/TWPoporFoundation/*'
+    ss.source_files = 'TWTool/Classes/TWPoporFoundation/TWFoundation.h'
+    
+    ss.subspec 'Prefix' do |sss|
+      sss.source_files = 'TWTool/Classes/TWPoporFoundation/Prefix/*.{h,m}'
+    end
+    
   end
   
   

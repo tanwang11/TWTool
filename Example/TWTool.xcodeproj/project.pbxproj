@@ -70,6 +70,10 @@
 		D16D927925F5C20600B55528 /* TWFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWFoundation.h; sourceTree = "<group>"; };
 		D16D927B25F5C53300B55528 /* TWTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTest1.h; sourceTree = "<group>"; };
 		D16D928525F5CC8200B55528 /* Block+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Block+twPrefix.h"; sourceTree = "<group>"; };
+		D16D929025F5E9E300B55528 /* Color+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Color+twPrefix.h"; sourceTree = "<group>"; };
+		D16D929325F5EB4000B55528 /* Font+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Font+twPrefix.h"; sourceTree = "<group>"; };
+		D16D929425F5ECFE00B55528 /* Size+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Size+twPrefix.h"; sourceTree = "<group>"; };
+		D16D929525F5EDC700B55528 /* Fun+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fun+twPrefix.h"; sourceTree = "<group>"; };
 		D1C316F425F08DDB00A05FCE /* TWTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTest1.m; sourceTree = "<group>"; };
 		D1C3170825F0A3EF00A05FCE /* TWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTool.h; sourceTree = "<group>"; };
 		F99B101608F8D05217DA2163 /* Pods_TWTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +220,10 @@
 			isa = PBXGroup;
 			children = (
 				D16D928525F5CC8200B55528 /* Block+twPrefix.h */,
+				D16D929025F5E9E300B55528 /* Color+twPrefix.h */,
+				D16D929325F5EB4000B55528 /* Font+twPrefix.h */,
+				D16D929525F5EDC700B55528 /* Fun+twPrefix.h */,
+				D16D929425F5ECFE00B55528 /* Size+twPrefix.h */,
 			);
 			path = Prefix;
 			sourceTree = "<group>";

@@ -12,8 +12,6 @@
 #ifndef Block_twPrefix_h
 #define Block_twPrefix_h
 
-typedef void(^bl) (NSString * str);
-
 // 定义
 // 返回为空
 typedef void(^BlockPVoid)             (void);

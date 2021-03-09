@@ -9,6 +9,9 @@
 #ifndef TWFoundation_h
 #define TWFoundation_h
 
+// NSData
+#import "NSData+twDic.h"
+
 
 // NSDate
 #import "NSDate+twTool.h"

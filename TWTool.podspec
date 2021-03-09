@@ -48,6 +48,11 @@ Pod::Spec.new do |s|
   s.subspec 'TWFoundation' do |ss|
     ss.source_files = 'TWTool/Classes/TWFoundation/TWFoundation.h'
     
+    ss.subspec 'NSFileManager' do |sss|
+        sss.source_files = 'TWTool/Classes/TWFoundation/NSFileManager/*.{h,m}'
+    end
+    
+    
     ss.subspec 'NSObject' do |sss|
         sss.source_files = 'TWTool/Classes/TWFoundation/NSObject/*.{h,m}'
     end
@@ -65,10 +70,6 @@ Pod::Spec.new do |s|
     ss.subspec 'Prefix' do |sss|
         sss.source_files = 'TWTool/Classes/TWFoundation/Prefix/*.{h,m}'
     end
-    
-    
-    
-    
     
   end
   

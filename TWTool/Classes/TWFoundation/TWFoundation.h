@@ -10,6 +10,11 @@
 #define TWFoundation_h
 
 
+
+// NSFileManager
+#import "NSFileManager+twTool.h"
+
+
 // NSString
 #import "NSObject+twAssiign.h"
 #import "NSObject+twPerformSelector.h"
@@ -24,9 +29,6 @@
 #import "NSString+twIDCard.h"
 #import "NSString+twMD5.h"
 #import "NSString+twSize.h"
-//#import "Font.h"
-//#import "Font.h"
-//#import "Font.h"
 
 
 // 常用宏

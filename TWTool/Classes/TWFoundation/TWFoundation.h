@@ -9,7 +9,9 @@
 #ifndef TWFoundation_h
 #define TWFoundation_h
 
-
+/**
+    参考 https://github.com/popor/PoporFoundation/blob/master/PoporFoundation
+ */
 
 // NSArray
 #import "NSArray+twJsonDic.h"

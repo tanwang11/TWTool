@@ -11,6 +11,13 @@
 
 
 
+// NSArray
+#import "NSArray+twJsonDic.h"
+#import "NSArray+twSwizzling.h"
+#import "NSMutableArray+twChain.h"
+#import "NSMutableArray+twSwizzling.h"
+
+
 // TWAssistant
 #import "TWAssistant.h"
 

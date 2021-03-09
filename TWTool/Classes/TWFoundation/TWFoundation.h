@@ -9,6 +9,9 @@
 #ifndef TWFoundation_h
 #define TWFoundation_h
 
+// NSDictionary
+#import "NSDictionary+twSwizzling.h"
+#import "NSDictionary+twTool.h"
 
 
 // NSFileManager

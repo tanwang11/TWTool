@@ -49,6 +49,13 @@ Pod::Spec.new do |s|
     ss.source_files = 'TWTool/Classes/TWFoundation/TWFoundation.h'
     
     
+    ss.subspec 'TWAssistant' do |sss|
+        # 需要引入的其他文件的的 .h 文件
+        sss.dependency  'TWTool/TWFoundation/Prefix'
+        sss.source_files = 'TWTool/Classes/TWFoundation/TWAssistant/*.{h,m}'
+    end
+    
+    
     ss.subspec 'NSData' do |sss|
         sss.source_files = 'TWTool/Classes/TWFoundation/NSData/*.{h,m}'
     end

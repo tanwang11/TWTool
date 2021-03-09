@@ -39,6 +39,7 @@
 		D1991E1025F7224300B45AB5 /* NSDictionary+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991E0F25F7224300B45AB5 /* NSDictionary+twTool.m */; };
 		D1991E1625F7262F00B45AB5 /* NSDecimalNumber+twChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991E1525F7262F00B45AB5 /* NSDecimalNumber+twChain.m */; };
 		D1991E1B25F73B3200B45AB5 /* NSDecimalNumber+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991E1A25F73B3200B45AB5 /* NSDecimalNumber+twSwizzling.m */; };
+		D1991E2125F73FC100B45AB5 /* NSDate+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991E2025F73FC100B45AB5 /* NSDate+twTool.m */; };
 		D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316F425F08DDB00A05FCE /* TWTest1.m */; };
 /* End PBXBuildFile section */
 
@@ -119,6 +120,8 @@
 		D1991E1525F7262F00B45AB5 /* NSDecimalNumber+twChain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+twChain.m"; sourceTree = "<group>"; };
 		D1991E1925F73B3200B45AB5 /* NSDecimalNumber+twSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDecimalNumber+twSwizzling.h"; sourceTree = "<group>"; };
 		D1991E1A25F73B3200B45AB5 /* NSDecimalNumber+twSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDecimalNumber+twSwizzling.m"; sourceTree = "<group>"; };
+		D1991E1F25F73FC100B45AB5 /* NSDate+twTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+twTool.h"; sourceTree = "<group>"; };
+		D1991E2025F73FC100B45AB5 /* NSDate+twTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+twTool.m"; sourceTree = "<group>"; };
 		D1C316F425F08DDB00A05FCE /* TWTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTest1.m; sourceTree = "<group>"; };
 		D1C3170825F0A3EF00A05FCE /* TWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTool.h; sourceTree = "<group>"; };
 		F99B101608F8D05217DA2163 /* Pods_TWTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -256,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				D16D927925F5C20600B55528 /* TWFoundation.h */,
+				D1991E1E25F73FA300B45AB5 /* NSDate */,
 				D1991E1325F7261600B45AB5 /* NSDecimalNumber */,
 				D1991E0625F71A2700B45AB5 /* NSDictionary */,
 				D1991DFE25F7128300B45AB5 /* NSFileManager */,
@@ -341,6 +345,15 @@
 				D1991E1A25F73B3200B45AB5 /* NSDecimalNumber+twSwizzling.m */,
 			);
 			path = NSDecimalNumber;
+			sourceTree = "<group>";
+		};
+		D1991E1E25F73FA300B45AB5 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				D1991E1F25F73FC100B45AB5 /* NSDate+twTool.h */,
+				D1991E2025F73FC100B45AB5 /* NSDate+twTool.m */,
+			);
+			path = NSDate;
 			sourceTree = "<group>";
 		};
 		D1C316E625F08AD900A05FCE /* Classes */ = {
@@ -563,6 +576,7 @@
 				D1991E1025F7224300B45AB5 /* NSDictionary+twTool.m in Sources */,
 				D16D92E525F6224900B55528 /* NSString+twEmail.m in Sources */,
 				D16D92D925F60E1100B55528 /* NSString+twAtt.m in Sources */,
+				D1991E2125F73FC100B45AB5 /* NSDate+twTool.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				D1991E0125F712C200B45AB5 /* NSFileManager+twTool.m in Sources */,
 				D1991DEF25F705D800B45AB5 /* NSString+twMD5.m in Sources */,

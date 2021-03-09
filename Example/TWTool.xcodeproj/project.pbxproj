@@ -24,6 +24,16 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D16D92CB25F60C5100B55528 /* NSObject+twPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92C825F60C5100B55528 /* NSObject+twPerformSelector.m */; };
+		D16D92CC25F60C5100B55528 /* NSObject+twAssiign.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92C925F60C5100B55528 /* NSObject+twAssiign.m */; };
+		D16D92D325F60CFF00B55528 /* NSString+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92D025F60CFE00B55528 /* NSString+twSwizzling.m */; };
+		D16D92D425F60CFF00B55528 /* NSString+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92D125F60CFE00B55528 /* NSString+twTool.m */; };
+		D16D92D925F60E1100B55528 /* NSString+twAtt.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92D725F60E1100B55528 /* NSString+twAtt.m */; };
+		D16D92DE25F6125200B55528 /* NSObject+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92DD25F6125200B55528 /* NSObject+twSwizzling.m */; };
+		D16D92E525F6224900B55528 /* NSString+twEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92E425F6224900B55528 /* NSString+twEmail.m */; };
+		D16D92EA25F623E300B55528 /* NSString+twIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92E925F623E300B55528 /* NSString+twIDCard.m */; };
+		D1991DEF25F705D800B45AB5 /* NSString+twMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991DEE25F705D800B45AB5 /* NSString+twMD5.m */; };
+		D1991DF425F70F2A00B45AB5 /* NSString+twSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991DF325F70F2A00B45AB5 /* NSString+twSize.m */; };
 		D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316F425F08DDB00A05FCE /* TWTest1.m */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +84,26 @@
 		D16D929325F5EB4000B55528 /* Font+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Font+twPrefix.h"; sourceTree = "<group>"; };
 		D16D929425F5ECFE00B55528 /* Size+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Size+twPrefix.h"; sourceTree = "<group>"; };
 		D16D929525F5EDC700B55528 /* Fun+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fun+twPrefix.h"; sourceTree = "<group>"; };
+		D16D92C725F60C5100B55528 /* NSObject+twAssiign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+twAssiign.h"; sourceTree = "<group>"; };
+		D16D92C825F60C5100B55528 /* NSObject+twPerformSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+twPerformSelector.m"; sourceTree = "<group>"; };
+		D16D92C925F60C5100B55528 /* NSObject+twAssiign.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+twAssiign.m"; sourceTree = "<group>"; };
+		D16D92CA25F60C5100B55528 /* NSObject+twPerformSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+twPerformSelector.h"; sourceTree = "<group>"; };
+		D16D92CF25F60CFE00B55528 /* NSString+twSwizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twSwizzling.h"; sourceTree = "<group>"; };
+		D16D92D025F60CFE00B55528 /* NSString+twSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twSwizzling.m"; sourceTree = "<group>"; };
+		D16D92D125F60CFE00B55528 /* NSString+twTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twTool.m"; sourceTree = "<group>"; };
+		D16D92D225F60CFE00B55528 /* NSString+twTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twTool.h"; sourceTree = "<group>"; };
+		D16D92D725F60E1100B55528 /* NSString+twAtt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+twAtt.m"; sourceTree = "<group>"; };
+		D16D92D825F60E1100B55528 /* NSString+twAtt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+twAtt.h"; sourceTree = "<group>"; };
+		D16D92DC25F6125200B55528 /* NSObject+twSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+twSwizzling.h"; sourceTree = "<group>"; };
+		D16D92DD25F6125200B55528 /* NSObject+twSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+twSwizzling.m"; sourceTree = "<group>"; };
+		D16D92E325F6224900B55528 /* NSString+twEmail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+twEmail.h"; sourceTree = "<group>"; };
+		D16D92E425F6224900B55528 /* NSString+twEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+twEmail.m"; sourceTree = "<group>"; };
+		D16D92E825F623E300B55528 /* NSString+twIDCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+twIDCard.h"; sourceTree = "<group>"; };
+		D16D92E925F623E300B55528 /* NSString+twIDCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+twIDCard.m"; sourceTree = "<group>"; };
+		D1991DED25F705D800B45AB5 /* NSString+twMD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+twMD5.h"; sourceTree = "<group>"; };
+		D1991DEE25F705D800B45AB5 /* NSString+twMD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+twMD5.m"; sourceTree = "<group>"; };
+		D1991DF225F70F2A00B45AB5 /* NSString+twSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+twSize.h"; sourceTree = "<group>"; };
+		D1991DF325F70F2A00B45AB5 /* NSString+twSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+twSize.m"; sourceTree = "<group>"; };
 		D1C316F425F08DDB00A05FCE /* TWTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTest1.m; sourceTree = "<group>"; };
 		D1C3170825F0A3EF00A05FCE /* TWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTool.h; sourceTree = "<group>"; };
 		F99B101608F8D05217DA2163 /* Pods_TWTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,13 +237,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		D16D927725F5C16200B55528 /* TWPoporFoundation */ = {
+		D16D927725F5C16200B55528 /* TWFoundation */ = {
 			isa = PBXGroup;
 			children = (
 				D16D927925F5C20600B55528 /* TWFoundation.h */,
+				D16D92C625F60C5100B55528 /* NSObject */,
+				D16D929B25F5F18800B55528 /* NSString */,
 				D16D928425F5CC7500B55528 /* Prefix */,
 			);
-			path = TWPoporFoundation;
+			path = TWFoundation;
 			sourceTree = "<group>";
 		};
 		D16D928425F5CC7500B55528 /* Prefix */ = {
@@ -228,12 +260,46 @@
 			path = Prefix;
 			sourceTree = "<group>";
 		};
+		D16D929B25F5F18800B55528 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				D16D92D825F60E1100B55528 /* NSString+twAtt.h */,
+				D16D92D725F60E1100B55528 /* NSString+twAtt.m */,
+				D16D92E325F6224900B55528 /* NSString+twEmail.h */,
+				D16D92E425F6224900B55528 /* NSString+twEmail.m */,
+				D16D92E825F623E300B55528 /* NSString+twIDCard.h */,
+				D16D92E925F623E300B55528 /* NSString+twIDCard.m */,
+				D1991DED25F705D800B45AB5 /* NSString+twMD5.h */,
+				D1991DEE25F705D800B45AB5 /* NSString+twMD5.m */,
+				D1991DF225F70F2A00B45AB5 /* NSString+twSize.h */,
+				D1991DF325F70F2A00B45AB5 /* NSString+twSize.m */,
+				D16D92CF25F60CFE00B55528 /* NSString+twSwizzling.h */,
+				D16D92D025F60CFE00B55528 /* NSString+twSwizzling.m */,
+				D16D92D225F60CFE00B55528 /* NSString+twTool.h */,
+				D16D92D125F60CFE00B55528 /* NSString+twTool.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		D16D92C625F60C5100B55528 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D16D92C725F60C5100B55528 /* NSObject+twAssiign.h */,
+				D16D92C925F60C5100B55528 /* NSObject+twAssiign.m */,
+				D16D92CA25F60C5100B55528 /* NSObject+twPerformSelector.h */,
+				D16D92C825F60C5100B55528 /* NSObject+twPerformSelector.m */,
+				D16D92DC25F6125200B55528 /* NSObject+twSwizzling.h */,
+				D16D92DD25F6125200B55528 /* NSObject+twSwizzling.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 		D1C316E625F08AD900A05FCE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				D1C3170825F0A3EF00A05FCE /* TWTool.h */,
 				D1C3170E25F0A52800A05FCE /* TWTest1 */,
-				D16D927725F5C16200B55528 /* TWPoporFoundation */,
+				D16D927725F5C16200B55528 /* TWFoundation */,
 			);
 			name = Classes;
 			path = ../TWTool/Classes;
@@ -435,10 +501,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16D92D425F60CFF00B55528 /* NSString+twTool.m in Sources */,
+				D16D92CB25F60C5100B55528 /* NSObject+twPerformSelector.m in Sources */,
+				D16D92D325F60CFF00B55528 /* NSString+twSwizzling.m in Sources */,
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
+				D16D92DE25F6125200B55528 /* NSObject+twSwizzling.m in Sources */,
+				D1991DF425F70F2A00B45AB5 /* NSString+twSize.m in Sources */,
 				D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */,
+				D16D92E525F6224900B55528 /* NSString+twEmail.m in Sources */,
+				D16D92D925F60E1100B55528 /* NSString+twAtt.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
+				D1991DEF25F705D800B45AB5 /* NSString+twMD5.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D16D92CC25F60C5100B55528 /* NSObject+twAssiign.m in Sources */,
+				D16D92EA25F623E300B55528 /* NSString+twIDCard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

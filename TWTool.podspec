@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TWTool'
-  s.version          = '0.0.11'
+  s.version          = '0.0.12'
   s.summary          = 'TWTool.'
 
 # This description is used to generate tags and improve search results.
@@ -45,12 +45,30 @@ Pod::Spec.new do |s|
   end
 
   # 创建文件夹
-  s.subspec 'TWPoporFoundation' do |ss|
-    ss.source_files = 'TWTool/Classes/TWPoporFoundation/TWFoundation.h'
+  s.subspec 'TWFoundation' do |ss|
+    ss.source_files = 'TWTool/Classes/TWFoundation/TWFoundation.h'
+    
+    ss.subspec 'NSObject' do |sss|
+        sss.source_files = 'TWTool/Classes/TWFoundation/NSObject/*.{h,m}'
+    end
+    
+    
+    ss.subspec 'NSString' do |sss|
+        # 需要引入的其他文件的的 .h 文件
+        sss.dependency  'TWTool/TWFoundation/NSObject'
+        sss.dependency  'TWTool/TWFoundation/Prefix'
+        
+        sss.source_files = 'TWTool/Classes/TWFoundation/NSString/*.{h,m}'
+    end
+    
     
     ss.subspec 'Prefix' do |sss|
-      sss.source_files = 'TWTool/Classes/TWPoporFoundation/Prefix/*.{h,m}'
+        sss.source_files = 'TWTool/Classes/TWFoundation/Prefix/*.{h,m}'
     end
+    
+    
+    
+    
     
   end
   

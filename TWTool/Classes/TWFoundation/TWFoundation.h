@@ -9,6 +9,15 @@
 #ifndef TWFoundation_h
 #define TWFoundation_h
 
+
+
+
+
+// NSDecimalNumber
+#import "NSDecimalNumber+twChain.h"
+#import "NSDecimalNumber+twSwizzling.h"
+
+
 // NSDictionary
 #import "NSDictionary+twSwizzling.h"
 #import "NSDictionary+twTool.h"

@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D16A8D0125F856940032B0D8 /* NSDate+TWDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D16A8D0025F856940032B0D8 /* NSDate+TWDatePicker.m */; };
+		D16A8D0825F8571A0032B0D8 /* TWDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D16A8D0725F8571A0032B0D8 /* TWDatePicker.m */; };
 		D16D92CB25F60C5100B55528 /* NSObject+twPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92C825F60C5100B55528 /* NSObject+twPerformSelector.m */; };
 		D16D92CC25F60C5100B55528 /* NSObject+twAssiign.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92C925F60C5100B55528 /* NSObject+twAssiign.m */; };
 		D16D92D325F60CFF00B55528 /* NSString+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92D025F60CFE00B55528 /* NSString+twSwizzling.m */; };
@@ -90,6 +92,10 @@
 		A86EFA240863D9AB03AB9731 /* Pods-TWTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWTool_Example/Pods-TWTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B34CE9B8F63B219693C0315B /* TWTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWTool.podspec; path = ../TWTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BF45F5DDA1915BABFD902209 /* Pods_TWTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16A8CFF25F856940032B0D8 /* NSDate+TWDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TWDatePicker.h"; sourceTree = "<group>"; };
+		D16A8D0025F856940032B0D8 /* NSDate+TWDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TWDatePicker.m"; sourceTree = "<group>"; };
+		D16A8D0625F8571A0032B0D8 /* TWDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWDatePicker.h; sourceTree = "<group>"; };
+		D16A8D0725F8571A0032B0D8 /* TWDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWDatePicker.m; sourceTree = "<group>"; };
 		D16D927925F5C20600B55528 /* TWFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWFoundation.h; sourceTree = "<group>"; };
 		D16D927B25F5C53300B55528 /* TWTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTest1.h; sourceTree = "<group>"; };
 		D16D928525F5CC8200B55528 /* Block+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Block+twPrefix.h"; sourceTree = "<group>"; };
@@ -276,6 +282,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D16A8CFE25F856610032B0D8 /* TWDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				D16A8CFF25F856940032B0D8 /* NSDate+TWDatePicker.h */,
+				D16A8D0025F856940032B0D8 /* NSDate+TWDatePicker.m */,
+				D16A8D0625F8571A0032B0D8 /* TWDatePicker.h */,
+				D16A8D0725F8571A0032B0D8 /* TWDatePicker.m */,
+			);
+			path = TWDatePicker;
+			sourceTree = "<group>";
+		};
 		D16D927725F5C16200B55528 /* TWFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -421,6 +438,7 @@
 				D1C3170825F0A3EF00A05FCE /* TWTool.h */,
 				D1C3170E25F0A52800A05FCE /* TWTest1 */,
 				D16D927725F5C16200B55528 /* TWFoundation */,
+				D16A8CFE25F856610032B0D8 /* TWDatePicker */,
 			);
 			name = Classes;
 			path = ../TWTool/Classes;
@@ -638,11 +656,13 @@
 				D1991E1025F7224300B45AB5 /* NSDictionary+twTool.m in Sources */,
 				D16D92E525F6224900B55528 /* NSString+twEmail.m in Sources */,
 				D16D92D925F60E1100B55528 /* NSString+twAtt.m in Sources */,
+				D16A8D0825F8571A0032B0D8 /* TWDatePicker.m in Sources */,
 				D1991E2125F73FC100B45AB5 /* NSDate+twTool.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				D1991E0125F712C200B45AB5 /* NSFileManager+twTool.m in Sources */,
 				D1991DEF25F705D800B45AB5 /* NSString+twMD5.m in Sources */,
 				D1991E4825F7476000B45AB5 /* NSMutableArray+twSwizzling.m in Sources */,
+				D16A8D0125F856940032B0D8 /* NSDate+TWDatePicker.m in Sources */,
 				D1991E4325F7470500B45AB5 /* NSMutableArray+twChain.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				D16D92CC25F60C5100B55528 /* NSObject+twAssiign.m in Sources */,

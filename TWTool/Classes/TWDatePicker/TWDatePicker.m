@@ -540,11 +540,11 @@
             if (component == 0) {
                 yearIndex = row;
                 self.showYearLabel.text =_yearArray[yearIndex];
-                NSLog(@"yearIndex = %ld",row);
+                NSLog(@"yearIndex = %ld", (long)row);
             }
             if (component == 1) {
                 monthIndex = row;
-                NSLog(@"monthIndex = %ld",row);
+                NSLog(@"monthIndex = %ld",(long)row);
             }
         }
             break;

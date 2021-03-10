@@ -145,7 +145,7 @@
         UIView * view = [UIView new];
         view.layer.cornerRadius  = 10;
         view.layer.masksToBounds = YES;
-        view.frame               = CGRectMake(10, self.frame.size.height-PickViewHeight - 10, self.frame.size.width-20, PickViewHeight);
+        view.frame               = CGRectMake(10, self.frame.size.height-PickViewHeight - [TWDatePicker safeBottomMargin], self.frame.size.width-20, PickViewHeight);
         view.backgroundColor = [UIColor whiteColor];
         
         [self addSubview:view];
@@ -175,6 +175,18 @@
         
         button;
     });
+    self.longTimeBT = ({
+        UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.frame = CGRectMake(0, PickViewLabelHeight, 0, PickViewButtonHeight);
+        [button setTitle:@"长期" forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        
+        [self.bottomView addSubview:button];
+        
+        [button addTarget:self action:@selector(longTimeAction:) forControlEvents:UIControlEventTouchUpInside];
+        
+        button;
+    });
     
     self.datePicker = ({
         UIPickerView * dp = [[UIPickerView alloc] initWithFrame:self.showYearLabel.bounds];
@@ -186,8 +198,10 @@
         dp;
     });
 
-    self.doneBTColor = PdpRGBA(247, 133, 51, 1);
-    self.doneBT.backgroundColor = self.doneBTColor;
+    self.doneBTColor        = PdpRGBA(247, 133, 51, 1);
+    self.longTimeBTColor    = PdpRGBA(210, 210, 210, 1);
+    self.doneBT.backgroundColor     = self.doneBTColor;
+    self.longTimeBT.backgroundColor = self.longTimeBTColor;
     
     //点击背景是否影藏
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(dismiss)];
@@ -230,6 +244,7 @@
         [_yearArray addObject:num];
     }
     
+    // !!!:设置的最大时间在这里无效，在时间选择器滚动过程中生效
     //最大最小限制
     if (!self.maxLimitDate) {
         self.maxLimitDate = [NSDate date:@"2099-12-31 23:59" WithFormat:@"yyyy-MM-dd HH:mm"];
@@ -716,7 +731,7 @@
         self.bottomView.frame = CGRectMake(self.bottomView.frame.origin.x, self.frame.size.height-PickViewHeight - [TWDatePicker safeBottomMargin], self.bottomView.frame.size.width, self.bottomView.frame.size.height);
         
         self.backgroundColor = PdpRGBA(0, 0, 0, 0.4);
-        [self layoutIfNeeded];
+//        [self layoutIfNeeded];
     }];
 }
 
@@ -739,6 +754,27 @@
     }
     [self dismiss];
 }
+
+- (void)longTimeAction:(UIButton *)btn {
+    if (self.doneBlock) {
+        self.doneBlock(nil);
+    }
+    [self dismiss];
+}
+
+
+#pragma mark - set
+- (void)setShowLongTime:(BOOL)showLongTime {
+    _showLongTime = showLongTime;
+    if (_showLongTime) {
+        self.longTimeBT.frame = CGRectMake(0, PickViewLabelHeight, 100, PickViewButtonHeight);
+        self.doneBT.frame     = CGRectMake(CGRectGetMaxX(self.longTimeBT.frame), PickViewLabelHeight, self.bottomView.frame.size.width-CGRectGetMaxX(self.longTimeBT.frame), PickViewButtonHeight);
+    } else {
+        self.longTimeBT.frame = CGRectMake(0, PickViewLabelHeight, 0, PickViewButtonHeight);
+        self.doneBT.frame     = CGRectMake(0, PickViewLabelHeight, self.bottomView.frame.size.width, PickViewButtonHeight);
+    }
+}
+
 
 #pragma mark - tools
 //通过年月求每月天数

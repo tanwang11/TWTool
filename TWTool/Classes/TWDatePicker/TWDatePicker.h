@@ -13,7 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #define PdpRGBA(r, g, b, a) [UIColor colorWithRed:(r / 255.0) green:(g / 255.0) blue:(b / 255.0) alpha:a]
 
-typedef void(^TWDatePickerDateBlock)(NSDate * date);
+typedef void(^TWDatePickerDateBlock)(NSDate * _Nullable date);
 
 /**
  *  弹出日期类型
@@ -37,6 +37,10 @@ typedef NS_ENUM(int, TWDatePickerStyle) {
  *  确定按钮颜色
  */
 @property (nonatomic, strong) UIColor *doneBTColor;
+/**
+ *  长期按钮颜色
+ */
+@property (nonatomic, strong) UIColor *longTimeBTColor;
 /**
  *  年-月-日-时-分 文字颜色(默认橙色)
  */
@@ -65,10 +69,16 @@ typedef NS_ENUM(int, TWDatePickerStyle) {
  */
 @property (nonatomic        ) BOOL hideBackgroundYearLabel;
 
+/**
+ *  是否显示 “长期” 按钮，默认为 NO
+ */
+@property (nonatomic        ) BOOL showLongTime;
+
 
 @property (nonatomic, strong) UIView       * bottomView;
 @property (nonatomic, strong) UILabel      * showYearLabel;
 @property (nonatomic, strong) UIButton     * doneBT;
+@property (nonatomic, strong) UIButton     * longTimeBT; // 长期有效按钮, showLongTime 设置为 YES 时显示，点击返回 nil
 
 @property (nonatomic, strong) UIPickerView * datePicker;
 @property (nonatomic, strong) NSDate       * scrollToDate;//滚到指定日期

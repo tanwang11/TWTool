@@ -152,6 +152,26 @@ Pod::Spec.new do |s|
         sss.source_files = 'TWTool/Classes/TWUI/UITextField/*.{h,m}'
     end
     
+    ss.subspec 'UITableView' do |sss|
+        sss.source_files = 'TWTool/Classes/TWUI/UITableView/*.{h,m}'
+    end
+    
+    ss.subspec 'UIScrollView' do |sss|
+        sss.source_files = 'TWTool/Classes/TWUI/UIScrollView/*.{h,m}'
+    end
+    
+    ss.subspec 'UINavigationController' do |sss|
+        sss.source_files = 'TWTool/Classes/TWUI/UINavigationController/*.{h,m}'
+    end
+    
+    ss.subspec 'UILabel' do |sss|
+        # 需要引入的其他文件的的 .h 文件
+        sss.dependency  'TWTool/TWFoundation/NSObject'
+        sss.dependency  'TWTool/TWFoundation/NSString'
+        sss.source_files = 'TWTool/Classes/TWUI/UILabel/*.{h,m}'
+    end
+    
+    
   end
   
   

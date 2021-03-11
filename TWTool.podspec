@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.frameworks = 'UIKit', 'Foundation'
+  s.frameworks = 'UIKit', 'Foundation', 'CoreText'
   
   
   # 创建文件夹
@@ -139,6 +139,17 @@ Pod::Spec.new do |s|
     
     ss.subspec 'UIView' do |sss|
         sss.source_files = 'TWTool/Classes/TWUI/UIView/*.{h,m}'
+    end
+    
+    ss.subspec 'UITextView' do |sss|
+        sss.source_files = 'TWTool/Classes/TWUI/UITextView/*.{h,m}'
+    end
+    
+    ss.subspec 'UITextField' do |sss|
+        # 需要引入的其他文件的的 .h 文件
+        sss.dependency  'TWTool/TWFoundation/NSObject'
+        sss.dependency  'TWTool/TWFoundation/NSString'
+        sss.source_files = 'TWTool/Classes/TWUI/UITextField/*.{h,m}'
     end
     
   end

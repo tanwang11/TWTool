@@ -55,6 +55,15 @@
 		D1A5781F25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5781E25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.m */; };
 		D1A5782525FA00CC00A7DB18 /* UIView+twExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5782425FA00CC00A7DB18 /* UIView+twExtension.m */; };
 		D1A5782A25FA012600A7DB18 /* UIView+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5782925FA012600A7DB18 /* UIView+twTool.m */; };
+		D1A5783025FA05D600A7DB18 /* UITextView+twMaxLength.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5782F25FA05D600A7DB18 /* UITextView+twMaxLength.m */; };
+		D1A5783525FA074200A7DB18 /* UITextView+twSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5783425FA074200A7DB18 /* UITextView+twSize.m */; };
+		D1A5783A25FA079100A7DB18 /* UITextView_twPasteImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5783925FA079100A7DB18 /* UITextView_twPasteImage.m */; };
+		D1A5783F25FA085300A7DB18 /* UITextView_twPlaceHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5783E25FA085300A7DB18 /* UITextView_twPlaceHolder.m */; };
+		D1A5784525FA09F000A7DB18 /* UITextField+twFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5784425FA09F000A7DB18 /* UITextField+twFormat.m */; };
+		D1A5784A25FA0DFE00A7DB18 /* UITextField+twInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5784925FA0DFE00A7DB18 /* UITextField+twInsets.m */; };
+		D1A5784F25FA0E6B00A7DB18 /* UITextField+twMaxLength.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5784E25FA0E6B00A7DB18 /* UITextField+twMaxLength.m */; };
+		D1A5785425FA0EC300A7DB18 /* UITextField+twPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5785325FA0EC300A7DB18 /* UITextField+twPlaceholder.m */; };
+		D1A5785925FA0F1B00A7DB18 /* UITextField+twTextRange.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5785825FA0F1B00A7DB18 /* UITextField+twTextRange.m */; };
 		D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316F425F08DDB00A05FCE /* TWTest1.m */; };
 /* End PBXBuildFile section */
 
@@ -168,6 +177,24 @@
 		D1A5782425FA00CC00A7DB18 /* UIView+twExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+twExtension.m"; sourceTree = "<group>"; };
 		D1A5782825FA012600A7DB18 /* UIView+twTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+twTool.h"; sourceTree = "<group>"; };
 		D1A5782925FA012600A7DB18 /* UIView+twTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+twTool.m"; sourceTree = "<group>"; };
+		D1A5782E25FA05D600A7DB18 /* UITextView+twMaxLength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+twMaxLength.h"; sourceTree = "<group>"; };
+		D1A5782F25FA05D600A7DB18 /* UITextView+twMaxLength.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+twMaxLength.m"; sourceTree = "<group>"; };
+		D1A5783325FA074200A7DB18 /* UITextView+twSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+twSize.h"; sourceTree = "<group>"; };
+		D1A5783425FA074200A7DB18 /* UITextView+twSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+twSize.m"; sourceTree = "<group>"; };
+		D1A5783825FA079100A7DB18 /* UITextView_twPasteImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextView_twPasteImage.h; sourceTree = "<group>"; };
+		D1A5783925FA079100A7DB18 /* UITextView_twPasteImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextView_twPasteImage.m; sourceTree = "<group>"; };
+		D1A5783D25FA085300A7DB18 /* UITextView_twPlaceHolder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextView_twPlaceHolder.h; sourceTree = "<group>"; };
+		D1A5783E25FA085300A7DB18 /* UITextView_twPlaceHolder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextView_twPlaceHolder.m; sourceTree = "<group>"; };
+		D1A5784325FA09F000A7DB18 /* UITextField+twFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+twFormat.h"; sourceTree = "<group>"; };
+		D1A5784425FA09F000A7DB18 /* UITextField+twFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+twFormat.m"; sourceTree = "<group>"; };
+		D1A5784825FA0DFE00A7DB18 /* UITextField+twInsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+twInsets.h"; sourceTree = "<group>"; };
+		D1A5784925FA0DFE00A7DB18 /* UITextField+twInsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+twInsets.m"; sourceTree = "<group>"; };
+		D1A5784D25FA0E6B00A7DB18 /* UITextField+twMaxLength.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+twMaxLength.h"; sourceTree = "<group>"; };
+		D1A5784E25FA0E6B00A7DB18 /* UITextField+twMaxLength.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+twMaxLength.m"; sourceTree = "<group>"; };
+		D1A5785225FA0EC300A7DB18 /* UITextField+twPlaceholder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+twPlaceholder.h"; sourceTree = "<group>"; };
+		D1A5785325FA0EC300A7DB18 /* UITextField+twPlaceholder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+twPlaceholder.m"; sourceTree = "<group>"; };
+		D1A5785725FA0F1B00A7DB18 /* UITextField+twTextRange.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+twTextRange.h"; sourceTree = "<group>"; };
+		D1A5785825FA0F1B00A7DB18 /* UITextField+twTextRange.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+twTextRange.m"; sourceTree = "<group>"; };
 		D1C316F425F08DDB00A05FCE /* TWTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTest1.m; sourceTree = "<group>"; };
 		D1C3170825F0A3EF00A05FCE /* TWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTool.h; sourceTree = "<group>"; };
 		F99B101608F8D05217DA2163 /* Pods_TWTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -316,6 +343,8 @@
 			isa = PBXGroup;
 			children = (
 				D16A8D1825F8AE770032B0D8 /* TWUI.h */,
+				D1A5784225FA09B300A7DB18 /* UITextField */,
+				D1A5782D25FA05B100A7DB18 /* UITextView */,
 				D1A5782225FA00B900A7DB18 /* UIView */,
 				D1A5780B25F9E0CD00A7DB18 /* UIViewController */,
 			);
@@ -485,6 +514,38 @@
 				D1A5782925FA012600A7DB18 /* UIView+twTool.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		D1A5782D25FA05B100A7DB18 /* UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5782E25FA05D600A7DB18 /* UITextView+twMaxLength.h */,
+				D1A5782F25FA05D600A7DB18 /* UITextView+twMaxLength.m */,
+				D1A5783325FA074200A7DB18 /* UITextView+twSize.h */,
+				D1A5783425FA074200A7DB18 /* UITextView+twSize.m */,
+				D1A5783825FA079100A7DB18 /* UITextView_twPasteImage.h */,
+				D1A5783925FA079100A7DB18 /* UITextView_twPasteImage.m */,
+				D1A5783D25FA085300A7DB18 /* UITextView_twPlaceHolder.h */,
+				D1A5783E25FA085300A7DB18 /* UITextView_twPlaceHolder.m */,
+			);
+			path = UITextView;
+			sourceTree = "<group>";
+		};
+		D1A5784225FA09B300A7DB18 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5784325FA09F000A7DB18 /* UITextField+twFormat.h */,
+				D1A5784425FA09F000A7DB18 /* UITextField+twFormat.m */,
+				D1A5784825FA0DFE00A7DB18 /* UITextField+twInsets.h */,
+				D1A5784925FA0DFE00A7DB18 /* UITextField+twInsets.m */,
+				D1A5784D25FA0E6B00A7DB18 /* UITextField+twMaxLength.h */,
+				D1A5784E25FA0E6B00A7DB18 /* UITextField+twMaxLength.m */,
+				D1A5785225FA0EC300A7DB18 /* UITextField+twPlaceholder.h */,
+				D1A5785325FA0EC300A7DB18 /* UITextField+twPlaceholder.m */,
+				D1A5785725FA0F1B00A7DB18 /* UITextField+twTextRange.h */,
+				D1A5785825FA0F1B00A7DB18 /* UITextField+twTextRange.m */,
+			);
+			path = UITextField;
 			sourceTree = "<group>";
 		};
 		D1C316E625F08AD900A05FCE /* Classes */ = {
@@ -696,6 +757,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A5783F25FA085300A7DB18 /* UITextView_twPlaceHolder.m in Sources */,
+				D1A5783A25FA079100A7DB18 /* UITextView_twPasteImage.m in Sources */,
 				D16D92D425F60CFF00B55528 /* NSString+twTool.m in Sources */,
 				D16D92CB25F60C5100B55528 /* NSObject+twPerformSelector.m in Sources */,
 				D1991E2725F740FE00B45AB5 /* NSData+twDic.m in Sources */,
@@ -711,6 +774,7 @@
 				D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */,
 				D1991E2E25F742D600B45AB5 /* TWAssistant.m in Sources */,
 				D1991E3925F7457900B45AB5 /* NSArray+twJsonDic.m in Sources */,
+				D1A5784F25FA0E6B00A7DB18 /* UITextField+twMaxLength.m in Sources */,
 				D1A5781A25F9E75300A7DB18 /* UIViewController+twNcBar.m in Sources */,
 				D1991E1025F7224300B45AB5 /* NSDictionary+twTool.m in Sources */,
 				D16D92E525F6224900B55528 /* NSString+twEmail.m in Sources */,
@@ -720,17 +784,23 @@
 				D1A5782A25FA012600A7DB18 /* UIView+twTool.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				D1991E0125F712C200B45AB5 /* NSFileManager+twTool.m in Sources */,
+				D1A5785925FA0F1B00A7DB18 /* UITextField+twTextRange.m in Sources */,
 				D1991DEF25F705D800B45AB5 /* NSString+twMD5.m in Sources */,
 				D1991E4825F7476000B45AB5 /* NSMutableArray+twSwizzling.m in Sources */,
 				D16A8D0125F856940032B0D8 /* NSDate+TWDatePicker.m in Sources */,
 				D1A5781F25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.m in Sources */,
+				D1A5785425FA0EC300A7DB18 /* UITextField+twPlaceholder.m in Sources */,
 				D1991E4325F7470500B45AB5 /* NSMutableArray+twChain.m in Sources */,
+				D1A5784525FA09F000A7DB18 /* UITextField+twFormat.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D1A5784A25FA0DFE00A7DB18 /* UITextField+twInsets.m in Sources */,
 				D1A5781525F9E4BF00A7DB18 /* UIViewController+twLeeBase.m in Sources */,
 				D16D92CC25F60C5100B55528 /* NSObject+twAssiign.m in Sources */,
 				D1991E4D25F7495300B45AB5 /* NSObject+twSafeKVO.m in Sources */,
 				D16D92EA25F623E300B55528 /* NSString+twIDCard.m in Sources */,
+				D1A5783525FA074200A7DB18 /* UITextView+twSize.m in Sources */,
 				D1991E3E25F7461F00B45AB5 /* NSArray+twSwizzling.m in Sources */,
+				D1A5783025FA05D600A7DB18 /* UITextView+twMaxLength.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

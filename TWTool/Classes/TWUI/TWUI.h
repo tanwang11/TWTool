@@ -13,9 +13,17 @@
     参考 https://github.com/popor/PoporFoundation/blob/master/PoporUI
  */
 
+#import "UITextField+twFormat.h"
+#import "UITextField+twInsets.h"
+#import "UITextField+twMaxLength.h"
+#import "UITextField+twPlaceholder.h"
+#import "UITextField+twTextRange.h"
 
 
-
+#import "UITextView+twMaxLength.h"
+#import "UITextView+twSize.h"
+#import "UITextView_twPasteImage.h"
+#import "UITextView_twPlaceHolder.h"
 
 
 #import "UIView+twExtension.h"

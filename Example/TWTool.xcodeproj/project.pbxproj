@@ -49,6 +49,12 @@
 		D1991E4325F7470500B45AB5 /* NSMutableArray+twChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991E4225F7470500B45AB5 /* NSMutableArray+twChain.m */; };
 		D1991E4825F7476000B45AB5 /* NSMutableArray+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991E4725F7476000B45AB5 /* NSMutableArray+twSwizzling.m */; };
 		D1991E4D25F7495300B45AB5 /* NSObject+twSafeKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991E4C25F7495300B45AB5 /* NSObject+twSafeKVO.m */; };
+		D1A5780E25F9E0F900A7DB18 /* UIViewController+twAC.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5780D25F9E0F900A7DB18 /* UIViewController+twAC.m */; };
+		D1A5781525F9E4BF00A7DB18 /* UIViewController+twLeeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5781425F9E4BF00A7DB18 /* UIViewController+twLeeBase.m */; };
+		D1A5781A25F9E75300A7DB18 /* UIViewController+twNcBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5781925F9E75300A7DB18 /* UIViewController+twNcBar.m */; };
+		D1A5781F25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5781E25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.m */; };
+		D1A5782525FA00CC00A7DB18 /* UIView+twExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5782425FA00CC00A7DB18 /* UIView+twExtension.m */; };
+		D1A5782A25FA012600A7DB18 /* UIView+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5782925FA012600A7DB18 /* UIView+twTool.m */; };
 		D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316F425F08DDB00A05FCE /* TWTest1.m */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +102,7 @@
 		D16A8D0025F856940032B0D8 /* NSDate+TWDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TWDatePicker.m"; sourceTree = "<group>"; };
 		D16A8D0625F8571A0032B0D8 /* TWDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWDatePicker.h; sourceTree = "<group>"; };
 		D16A8D0725F8571A0032B0D8 /* TWDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWDatePicker.m; sourceTree = "<group>"; };
+		D16A8D1825F8AE770032B0D8 /* TWUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWUI.h; sourceTree = "<group>"; };
 		D16D927925F5C20600B55528 /* TWFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWFoundation.h; sourceTree = "<group>"; };
 		D16D927B25F5C53300B55528 /* TWTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTest1.h; sourceTree = "<group>"; };
 		D16D928525F5CC8200B55528 /* Block+twPrefix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Block+twPrefix.h"; sourceTree = "<group>"; };
@@ -149,6 +156,18 @@
 		D1991E4725F7476000B45AB5 /* NSMutableArray+twSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+twSwizzling.m"; sourceTree = "<group>"; };
 		D1991E4B25F7495300B45AB5 /* NSObject+twSafeKVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+twSafeKVO.h"; sourceTree = "<group>"; };
 		D1991E4C25F7495300B45AB5 /* NSObject+twSafeKVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+twSafeKVO.m"; sourceTree = "<group>"; };
+		D1A5780C25F9E0F900A7DB18 /* UIViewController+twAC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+twAC.h"; sourceTree = "<group>"; };
+		D1A5780D25F9E0F900A7DB18 /* UIViewController+twAC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+twAC.m"; sourceTree = "<group>"; };
+		D1A5781325F9E4BF00A7DB18 /* UIViewController+twLeeBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+twLeeBase.h"; sourceTree = "<group>"; };
+		D1A5781425F9E4BF00A7DB18 /* UIViewController+twLeeBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+twLeeBase.m"; sourceTree = "<group>"; };
+		D1A5781825F9E75300A7DB18 /* UIViewController+twNcBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+twNcBar.h"; sourceTree = "<group>"; };
+		D1A5781925F9E75300A7DB18 /* UIViewController+twNcBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+twNcBar.m"; sourceTree = "<group>"; };
+		D1A5781D25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+twTapEndEdit.h"; sourceTree = "<group>"; };
+		D1A5781E25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+twTapEndEdit.m"; sourceTree = "<group>"; };
+		D1A5782325FA00CC00A7DB18 /* UIView+twExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+twExtension.h"; sourceTree = "<group>"; };
+		D1A5782425FA00CC00A7DB18 /* UIView+twExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+twExtension.m"; sourceTree = "<group>"; };
+		D1A5782825FA012600A7DB18 /* UIView+twTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+twTool.h"; sourceTree = "<group>"; };
+		D1A5782925FA012600A7DB18 /* UIView+twTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+twTool.m"; sourceTree = "<group>"; };
 		D1C316F425F08DDB00A05FCE /* TWTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTest1.m; sourceTree = "<group>"; };
 		D1C3170825F0A3EF00A05FCE /* TWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTool.h; sourceTree = "<group>"; };
 		F99B101608F8D05217DA2163 /* Pods_TWTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -293,6 +312,16 @@
 			path = TWDatePicker;
 			sourceTree = "<group>";
 		};
+		D16A8D1725F8A75E0032B0D8 /* TWUI */ = {
+			isa = PBXGroup;
+			children = (
+				D16A8D1825F8AE770032B0D8 /* TWUI.h */,
+				D1A5782225FA00B900A7DB18 /* UIView */,
+				D1A5780B25F9E0CD00A7DB18 /* UIViewController */,
+			);
+			path = TWUI;
+			sourceTree = "<group>";
+		};
 		D16D927725F5C16200B55528 /* TWFoundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -432,6 +461,32 @@
 			path = NSArray;
 			sourceTree = "<group>";
 		};
+		D1A5780B25F9E0CD00A7DB18 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5780C25F9E0F900A7DB18 /* UIViewController+twAC.h */,
+				D1A5780D25F9E0F900A7DB18 /* UIViewController+twAC.m */,
+				D1A5781325F9E4BF00A7DB18 /* UIViewController+twLeeBase.h */,
+				D1A5781425F9E4BF00A7DB18 /* UIViewController+twLeeBase.m */,
+				D1A5781825F9E75300A7DB18 /* UIViewController+twNcBar.h */,
+				D1A5781925F9E75300A7DB18 /* UIViewController+twNcBar.m */,
+				D1A5781D25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.h */,
+				D1A5781E25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		D1A5782225FA00B900A7DB18 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				D1A5782325FA00CC00A7DB18 /* UIView+twExtension.h */,
+				D1A5782425FA00CC00A7DB18 /* UIView+twExtension.m */,
+				D1A5782825FA012600A7DB18 /* UIView+twTool.h */,
+				D1A5782925FA012600A7DB18 /* UIView+twTool.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		D1C316E625F08AD900A05FCE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -439,6 +494,7 @@
 				D1C3170E25F0A52800A05FCE /* TWTest1 */,
 				D16D927725F5C16200B55528 /* TWFoundation */,
 				D16A8CFE25F856610032B0D8 /* TWDatePicker */,
+				D16A8D1725F8A75E0032B0D8 /* TWUI */,
 			);
 			name = Classes;
 			path = ../TWTool/Classes;
@@ -645,6 +701,8 @@
 				D1991E2725F740FE00B45AB5 /* NSData+twDic.m in Sources */,
 				D16D92D325F60CFF00B55528 /* NSString+twSwizzling.m in Sources */,
 				D1991E0925F71A7300B45AB5 /* NSDictionary+twSwizzling.m in Sources */,
+				D1A5782525FA00CC00A7DB18 /* UIView+twExtension.m in Sources */,
+				D1A5780E25F9E0F900A7DB18 /* UIViewController+twAC.m in Sources */,
 				D1991E1625F7262F00B45AB5 /* NSDecimalNumber+twChain.m in Sources */,
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
 				D16D92DE25F6125200B55528 /* NSObject+twSwizzling.m in Sources */,
@@ -653,18 +711,22 @@
 				D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */,
 				D1991E2E25F742D600B45AB5 /* TWAssistant.m in Sources */,
 				D1991E3925F7457900B45AB5 /* NSArray+twJsonDic.m in Sources */,
+				D1A5781A25F9E75300A7DB18 /* UIViewController+twNcBar.m in Sources */,
 				D1991E1025F7224300B45AB5 /* NSDictionary+twTool.m in Sources */,
 				D16D92E525F6224900B55528 /* NSString+twEmail.m in Sources */,
 				D16D92D925F60E1100B55528 /* NSString+twAtt.m in Sources */,
 				D16A8D0825F8571A0032B0D8 /* TWDatePicker.m in Sources */,
 				D1991E2125F73FC100B45AB5 /* NSDate+twTool.m in Sources */,
+				D1A5782A25FA012600A7DB18 /* UIView+twTool.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				D1991E0125F712C200B45AB5 /* NSFileManager+twTool.m in Sources */,
 				D1991DEF25F705D800B45AB5 /* NSString+twMD5.m in Sources */,
 				D1991E4825F7476000B45AB5 /* NSMutableArray+twSwizzling.m in Sources */,
 				D16A8D0125F856940032B0D8 /* NSDate+TWDatePicker.m in Sources */,
+				D1A5781F25F9EA3800A7DB18 /* UIViewController+twTapEndEdit.m in Sources */,
 				D1991E4325F7470500B45AB5 /* NSMutableArray+twChain.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D1A5781525F9E4BF00A7DB18 /* UIViewController+twLeeBase.m in Sources */,
 				D16D92CC25F60C5100B55528 /* NSObject+twAssiign.m in Sources */,
 				D1991E4D25F7495300B45AB5 /* NSObject+twSafeKVO.m in Sources */,
 				D16D92EA25F623E300B55528 /* NSString+twIDCard.m in Sources */,

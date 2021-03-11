@@ -38,6 +38,9 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
+  s.frameworks = 'UIKit', 'Foundation'
+  
+  
   # 创建文件夹
   s.subspec 'TWTest1' do |ss|
 #    ss.source_files = 'TWTool/Classes/TWTest1/*.{h,m}'
@@ -120,6 +123,24 @@ Pod::Spec.new do |s|
   s.subspec 'TWDatePicker' do |ss|
 #    ss.source_files = 'TWTool/Classes/TWTest1/*.{h,m}'
     ss.source_files = 'TWTool/Classes/TWDatePicker/*'
+  end
+  
+  
+  s.subspec 'TWUI' do |ss|
+    ss.source_files = 'TWTool/Classes/TWUI/*'
+    
+    ss.subspec 'UIViewController' do |sss|
+        # 需要引入的其他文件的的 .h 文件
+        sss.dependency  'TWTool/TWFoundation/NSObject'
+        sss.dependency  'TWTool/TWFoundation/Prefix'
+        sss.dependency  'TWTool/TWFoundation/NSString'
+        sss.source_files = 'TWTool/Classes/TWUI/UIViewController/*.{h,m}'
+    end
+    
+    ss.subspec 'UIView' do |sss|
+        sss.source_files = 'TWTool/Classes/TWUI/UIView/*.{h,m}'
+    end
+    
   end
   
   

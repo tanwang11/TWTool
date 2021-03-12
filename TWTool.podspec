@@ -186,6 +186,32 @@ Pod::Spec.new do |s|
         sss.source_files = 'TWTool/Classes/TWUI/UIDevice/*.{h,m}'
     end
     
+    ss.subspec 'UIButton' do |sss|
+        # 需要引入的其他文件的的 .h 文件
+        sss.dependency  'TWTool/TWFoundation/NSString'
+        sss.dependency  'TWTool/TWUI/UIView'
+        sss.source_files = 'TWTool/Classes/TWUI/UIButton/*.{h,m}'
+    end
+    
+    ss.subspec 'UIAlertController' do |sss|
+        sss.source_files = 'TWTool/Classes/TWUI/UIAlertController/*.{h,m}'
+    end
+    
+    ss.subspec 'Response' do |sss|
+        sss.source_files = 'TWTool/Classes/TWUI/Response/*.{h,m}'
+    end
+    
+    ss.subspec 'ProgressView' do |sss|
+        sss.source_files = 'TWTool/Classes/TWUI/ProgressView/*.{h,m}'
+    end
+    
+    ss.subspec 'IToast' do |sss|
+        # 需要引入的其他文件的的 .h 文件
+        sss.dependency  'TWTool/TWFoundation/NSString'
+        sss.source_files = 'TWTool/Classes/TWUI/IToast/*.{h,m}'
+    end
+    
+    
   end
   
   

@@ -34,6 +34,7 @@
 		D16D92DE25F6125200B55528 /* NSObject+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92DD25F6125200B55528 /* NSObject+twSwizzling.m */; };
 		D16D92E525F6224900B55528 /* NSString+twEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92E425F6224900B55528 /* NSString+twEmail.m */; };
 		D16D92EA25F623E300B55528 /* NSString+twIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = D16D92E925F623E300B55528 /* NSString+twIDCard.m */; };
+		D178CCC425FAF96000E2D944 /* UILabel+twSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D178CCC325FAF96000E2D944 /* UILabel+twSize.m */; };
 		D1991DEF25F705D800B45AB5 /* NSString+twMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991DEE25F705D800B45AB5 /* NSString+twMD5.m */; };
 		D1991DF425F70F2A00B45AB5 /* NSString+twSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991DF325F70F2A00B45AB5 /* NSString+twSize.m */; };
 		D1991E0125F712C200B45AB5 /* NSFileManager+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1991E0025F712C200B45AB5 /* NSFileManager+twTool.m */; };
@@ -71,6 +72,8 @@
 		D1A5787725FA143B00A7DB18 /* UINavigationController+twRemove.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5787625FA143B00A7DB18 /* UINavigationController+twRemove.m */; };
 		D1A5787C25FA148800A7DB18 /* UINavigationController+twSize.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5787B25FA148800A7DB18 /* UINavigationController+twSize.m */; };
 		D1A5788225FA154200A7DB18 /* UILabel+twFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5788125FA154200A7DB18 /* UILabel+twFormat.m */; };
+		D1A5788925FA190600A7DB18 /* UILabel+twInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5788825FA190600A7DB18 /* UILabel+twInsets.m */; };
+		D1A5789325FA19C000A7DB18 /* UILabel_twPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A5789225FA19C000A7DB18 /* UILabel_twPhone.m */; };
 		D1C316F525F08DDB00A05FCE /* TWTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C316F425F08DDB00A05FCE /* TWTest1.m */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +145,8 @@
 		D16D92E425F6224900B55528 /* NSString+twEmail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+twEmail.m"; sourceTree = "<group>"; };
 		D16D92E825F623E300B55528 /* NSString+twIDCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+twIDCard.h"; sourceTree = "<group>"; };
 		D16D92E925F623E300B55528 /* NSString+twIDCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+twIDCard.m"; sourceTree = "<group>"; };
+		D178CCC225FAF96000E2D944 /* UILabel+twSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+twSize.h"; sourceTree = "<group>"; };
+		D178CCC325FAF96000E2D944 /* UILabel+twSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+twSize.m"; sourceTree = "<group>"; };
 		D1991DED25F705D800B45AB5 /* NSString+twMD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+twMD5.h"; sourceTree = "<group>"; };
 		D1991DEE25F705D800B45AB5 /* NSString+twMD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+twMD5.m"; sourceTree = "<group>"; };
 		D1991DF225F70F2A00B45AB5 /* NSString+twSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+twSize.h"; sourceTree = "<group>"; };
@@ -216,6 +221,10 @@
 		D1A5787B25FA148800A7DB18 /* UINavigationController+twSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+twSize.m"; sourceTree = "<group>"; };
 		D1A5788025FA154200A7DB18 /* UILabel+twFormat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+twFormat.h"; sourceTree = "<group>"; };
 		D1A5788125FA154200A7DB18 /* UILabel+twFormat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+twFormat.m"; sourceTree = "<group>"; };
+		D1A5788725FA190600A7DB18 /* UILabel+twInsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+twInsets.h"; sourceTree = "<group>"; };
+		D1A5788825FA190600A7DB18 /* UILabel+twInsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+twInsets.m"; sourceTree = "<group>"; };
+		D1A5789125FA19C000A7DB18 /* UILabel_twPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabel_twPhone.h; sourceTree = "<group>"; };
+		D1A5789225FA19C000A7DB18 /* UILabel_twPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabel_twPhone.m; sourceTree = "<group>"; };
 		D1C316F425F08DDB00A05FCE /* TWTest1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWTest1.m; sourceTree = "<group>"; };
 		D1C3170825F0A3EF00A05FCE /* TWTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTool.h; sourceTree = "<group>"; };
 		F99B101608F8D05217DA2163 /* Pods_TWTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -611,6 +620,12 @@
 			children = (
 				D1A5788025FA154200A7DB18 /* UILabel+twFormat.h */,
 				D1A5788125FA154200A7DB18 /* UILabel+twFormat.m */,
+				D1A5788725FA190600A7DB18 /* UILabel+twInsets.h */,
+				D1A5788825FA190600A7DB18 /* UILabel+twInsets.m */,
+				D178CCC225FAF96000E2D944 /* UILabel+twSize.h */,
+				D178CCC325FAF96000E2D944 /* UILabel+twSize.m */,
+				D1A5789125FA19C000A7DB18 /* UILabel_twPhone.h */,
+				D1A5789225FA19C000A7DB18 /* UILabel_twPhone.m */,
 			);
 			path = UILabel;
 			sourceTree = "<group>";
@@ -824,6 +839,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D178CCC425FAF96000E2D944 /* UILabel+twSize.m in Sources */,
+				D1A5789325FA19C000A7DB18 /* UILabel_twPhone.m in Sources */,
 				D1A5783F25FA085300A7DB18 /* UITextView_twPlaceHolder.m in Sources */,
 				D1A5783A25FA079100A7DB18 /* UITextView_twPasteImage.m in Sources */,
 				D1A5786A25FA11F900A7DB18 /* UIScrollView+twTool.m in Sources */,
@@ -855,6 +872,7 @@
 				D16A8D0825F8571A0032B0D8 /* TWDatePicker.m in Sources */,
 				D1991E2125F73FC100B45AB5 /* NSDate+twTool.m in Sources */,
 				D1A5782A25FA012600A7DB18 /* UIView+twTool.m in Sources */,
+				D1A5788925FA190600A7DB18 /* UILabel+twInsets.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				D1991E0125F712C200B45AB5 /* NSFileManager+twTool.m in Sources */,
 				D1A5785925FA0F1B00A7DB18 /* UITextField+twTextRange.m in Sources */,

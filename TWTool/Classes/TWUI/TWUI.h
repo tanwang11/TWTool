@@ -14,6 +14,12 @@
  */
 
 
+#import "UIDevice+twPermission.h"
+#import "UIDevice+twSaveImage.h"
+#import "UIDevice+twScreenSize.h"
+#import "UIDevice+twTool.h"
+
+
 #import "UIImage+twCreate.h"
 #import "UIImage+twGradient.h"
 #import "UIImage+twRead.h"

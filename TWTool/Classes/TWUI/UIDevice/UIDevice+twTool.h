@@ -32,10 +32,10 @@ typedef NS_ENUM(int, NetStatusType)
 //+ (UIImage*)imageFromColors:(NSArray*)colors frame:(CGRect)frame;
 
 /**
- * 获取ios设备状态栏网络状态，检测2G、3G、4G、wifi都是正常的。
+ * 获取ios设备状态栏网络状态，检测2G、3G、4G、wifi都是正常的。 -- ios14 无法使用
  */
-+ (NSString *)getIOSStatusBarNetWorkTypeStr;
-+ (NetStatusType)getIOSStatusBarNetWorkTypeInt;
+//+ (NSString *)getIOSStatusBarNetWorkTypeStr;
+//+ (NetStatusType)getIOSStatusBarNetWorkTypeInt;
 
 + (NSString *)getAppName;
 

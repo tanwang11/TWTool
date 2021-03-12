@@ -40,17 +40,26 @@
 
 
 - (void)toucheBtnEvent {
+//    /**
+//     * 日期选择组件测试
+//     */
+//    TWDatePicker * datePicker = [[TWDatePicker alloc] initWithDateStyle:TWDatePickerStyle_YMD CompleteBlock:^(NSDate * _Nullable date) {
+//        if (date)
+//            NSLog(@"选择时间 %@", [date stringWithFormatter:@"yyyy-MM-dd" timeZone:[NSDate getZoneHour]]);
+//        else
+//            NSLog(@"选择了长期有效");
+//    }];
+////    datePicker.showLongTime = YES; // 显示长期按钮
+//    [datePicker show];
+    
+    
     /**
-     * 日期选择组件测试
+     * 获取设备的网络
      */
-    TWDatePicker * datePicker = [[TWDatePicker alloc] initWithDateStyle:TWDatePickerStyle_YMD CompleteBlock:^(NSDate * _Nullable date) {
-        if (date)
-            NSLog(@"选择时间 %@", [date stringWithFormatter:@"yyyy-MM-dd" timeZone:[NSDate getZoneHour]]);
-        else
-            NSLog(@"选择了长期有效");
-    }];
-//    datePicker.showLongTime = YES; // 显示长期按钮
-    [datePicker show];
+    NSString * netWork = [UIDevice getWifiName];
+    NSLog(@"网络：%@", netWork);
+    
+    
 }
 
 

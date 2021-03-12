@@ -7,12 +7,24 @@
 //
 
 #import "TWAppDelegate.h"
+#import "TWViewController.h"
+
 
 @implementation TWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    TWViewController * vc = [[TWViewController alloc] init];
+    UINavigationController * nc = [[UINavigationController alloc] initWithRootViewController:vc];
+    
+//    UIWindow * window = [[UIApplication sharedApplication] keyWindow];
+    UIWindow * window = [UIApplication sharedApplication].windows[0];
+//    NSLog(@"1212");
+    window.rootViewController = nc;
+    
+    
     return YES;
 }
 

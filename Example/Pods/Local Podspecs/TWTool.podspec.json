@@ -1,8 +1,8 @@
 {
   "name": "TWTool",
-  "version": "0.1.0",
-  "summary": "A short description of TWTool.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.17",
+  "summary": "TWTool.",
+  "description": "twTooltwTool",
   "homepage": "https://github.com/tanwang11/TWTool",
   "license": {
     "type": "MIT",
@@ -13,10 +13,242 @@
   },
   "source": {
     "git": "https://github.com/tanwang11/TWTool.git",
-    "tag": "0.1.0"
+    "tag": "0.0.17"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "TWTool/Classes/**/*"
+  "source_files": "TWTool/Classes/TWTool.h",
+  "dependencies": {
+    "Masonry": [
+      "1.1.0"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreText"
+  ],
+  "subspecs": [
+    {
+      "name": "TWTest1",
+      "source_files": "TWTool/Classes/TWTest1/*"
+    },
+    {
+      "name": "TWFoundation",
+      "source_files": "TWTool/Classes/TWFoundation/TWFoundation.h",
+      "subspecs": [
+        {
+          "name": "NSArray",
+          "dependencies": {
+            "TWTool/TWFoundation/NSObject": [
+
+            ],
+            "TWTool/TWFoundation/Prefix": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWFoundation/NSArray/*.{h,m}"
+        },
+        {
+          "name": "TWAssistant",
+          "dependencies": {
+            "TWTool/TWFoundation/Prefix": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWFoundation/TWAssistant/*.{h,m}"
+        },
+        {
+          "name": "NSData",
+          "source_files": "TWTool/Classes/TWFoundation/NSData/*.{h,m}"
+        },
+        {
+          "name": "NSDate",
+          "dependencies": {
+            "TWTool/TWFoundation/NSString": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWFoundation/NSDate/*.{h,m}"
+        },
+        {
+          "name": "NSDecimalNumber",
+          "dependencies": {
+            "TWTool/TWFoundation/NSObject": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWFoundation/NSDecimalNumber/*.{h,m}"
+        },
+        {
+          "name": "NSDictionary",
+          "dependencies": {
+            "TWTool/TWFoundation/NSObject": [
+
+            ],
+            "TWTool/TWFoundation/Prefix": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWFoundation/NSDictionary/*.{h,m}"
+        },
+        {
+          "name": "NSFileManager",
+          "source_files": "TWTool/Classes/TWFoundation/NSFileManager/*.{h,m}"
+        },
+        {
+          "name": "NSObject",
+          "source_files": "TWTool/Classes/TWFoundation/NSObject/*.{h,m}"
+        },
+        {
+          "name": "NSString",
+          "dependencies": {
+            "TWTool/TWFoundation/NSObject": [
+
+            ],
+            "TWTool/TWFoundation/Prefix": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWFoundation/NSString/*.{h,m}"
+        },
+        {
+          "name": "Prefix",
+          "source_files": "TWTool/Classes/TWFoundation/Prefix/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "TWDatePicker",
+      "source_files": "TWTool/Classes/TWDatePicker/*"
+    },
+    {
+      "name": "TWUI",
+      "source_files": "TWTool/Classes/TWUI/*",
+      "subspecs": [
+        {
+          "name": "UIViewController",
+          "dependencies": {
+            "TWTool/TWFoundation/NSObject": [
+
+            ],
+            "TWTool/TWFoundation/Prefix": [
+
+            ],
+            "TWTool/TWFoundation/NSString": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWUI/UIViewController/*.{h,m}"
+        },
+        {
+          "name": "UIView",
+          "source_files": "TWTool/Classes/TWUI/UIView/*.{h,m}"
+        },
+        {
+          "name": "UITextView",
+          "source_files": "TWTool/Classes/TWUI/UITextView/*.{h,m}"
+        },
+        {
+          "name": "UITextField",
+          "dependencies": {
+            "TWTool/TWFoundation/NSObject": [
+
+            ],
+            "TWTool/TWFoundation/NSString": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWUI/UITextField/*.{h,m}"
+        },
+        {
+          "name": "UITableView",
+          "source_files": "TWTool/Classes/TWUI/UITableView/*.{h,m}"
+        },
+        {
+          "name": "UIScrollView",
+          "source_files": "TWTool/Classes/TWUI/UIScrollView/*.{h,m}"
+        },
+        {
+          "name": "UINavigationController",
+          "source_files": "TWTool/Classes/TWUI/UINavigationController/*.{h,m}"
+        },
+        {
+          "name": "UILabel",
+          "dependencies": {
+            "TWTool/TWFoundation/NSObject": [
+
+            ],
+            "TWTool/TWFoundation/NSString": [
+
+            ],
+            "TWTool/TWUI/UIView": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWUI/UILabel/*.{h,m}"
+        },
+        {
+          "name": "UIImage",
+          "source_files": "TWTool/Classes/TWUI/UIImage/*.{h,m}"
+        },
+        {
+          "name": "UIDevice",
+          "dependencies": {
+            "TWTool/TWFoundation/NSString": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWUI/UIDevice/*.{h,m}"
+        },
+        {
+          "name": "UIButton",
+          "dependencies": {
+            "TWTool/TWFoundation/NSString": [
+
+            ],
+            "TWTool/TWUI/UIView": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWUI/UIButton/*.{h,m}"
+        },
+        {
+          "name": "UIAlertController",
+          "source_files": "TWTool/Classes/TWUI/UIAlertController/*.{h,m}"
+        },
+        {
+          "name": "Response",
+          "source_files": "TWTool/Classes/TWUI/Response/*.{h,m}"
+        },
+        {
+          "name": "ProgressView",
+          "source_files": "TWTool/Classes/TWUI/ProgressView/*.{h,m}"
+        },
+        {
+          "name": "IToast",
+          "dependencies": {
+            "TWTool/TWFoundation/NSString": [
+
+            ]
+          },
+          "source_files": "TWTool/Classes/TWUI/IToast/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "TWMasonry",
+      "source_files": "TWTool/Classes/TWMasonry/*.{h,m}"
+    },
+    {
+      "name": "TWSegmentView",
+      "dependencies": {
+        "TWTool/TWUI/UIView": [
+
+        ]
+      },
+      "source_files": "TWTool/Classes/TWSegmentView/*.{h,m}"
+    }
+  ]
 }

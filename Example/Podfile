@@ -4,10 +4,14 @@ platform :ios, '9.0'
 
 target 'TWTool_Example' do
   pod 'TWTool', :path => '../'
-
+  
+  pod 'Masonry'
+  
+  
   target 'TWTool_Tests' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase'
+    
   end
 end

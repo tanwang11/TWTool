@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TWTool'
-  s.version          = '0.0.17'
+  s.version          = '0.0.18'
   s.summary          = 'TWTool.'
 
 # This description is used to generate tags and improve search results.
@@ -38,6 +38,8 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
+  s.dependency  'Masonry', '1.1.0'
+  
   s.frameworks = 'UIKit', 'Foundation', 'CoreText'
   
   
@@ -47,6 +49,7 @@ Pod::Spec.new do |s|
     ss.source_files = 'TWTool/Classes/TWTest1/*'
   end
 
+  
   # 创建文件夹
   s.subspec 'TWFoundation' do |ss|
     ss.source_files = 'TWTool/Classes/TWFoundation/TWFoundation.h'
@@ -118,6 +121,7 @@ Pod::Spec.new do |s|
     end
     
   end
+  
   
   # 创建文件夹
   s.subspec 'TWDatePicker' do |ss|
@@ -213,6 +217,22 @@ Pod::Spec.new do |s|
     
     
   end
+  
+  
+#  # 创建文件夹
+#  s.subspec 'TWMasonry' do |ss|
+#    ss.source_files = 'TWTool/Classes/TWMasonry/*.{h,m}'
+#  end
+  
+  
+  # 创建文件夹
+  s.subspec 'TWSegmentView' do |ss|
+    # 需要引入的其他文件的的 .h 文件
+    ss.dependency  'TWTool/TWUI/UIView'
+    ss.source_files = 'TWTool/Classes/TWSegmentView/*.{h,m}'
+  end
+  
+  
   
   
 end

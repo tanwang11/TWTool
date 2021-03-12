@@ -9,6 +9,8 @@
 #import "TWViewController.h"
 
 #import "TWTool.h"
+#import "SVViewController.h"
+
 
 
 @interface TWViewController ()
@@ -21,6 +23,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.title = @"首页";
+    
     
     UIButton * btn = [UIButton new];
     btn.frame = CGRectMake(20, 100, 200, 48);
@@ -56,9 +62,9 @@
     /**
      * 获取设备的网络
      */
-    NSString * netWork = [UIDevice getWifiName];
-    NSLog(@"网络：%@", netWork);
-    
+//    NSString * netWork = [UIDevice getWifiName];
+//    NSLog(@"网络：%@", netWork);
+    [self.navigationController pushViewController:[[SVViewController alloc] init] animated:YES];
     
 }
 

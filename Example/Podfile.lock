@@ -4,15 +4,134 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - TWTool (0.1.0)
+  - Masonry (1.1.0)
+  - TWTool (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWDatePicker (= 0.0.17)
+    - TWTool/TWFoundation (= 0.0.17)
+    - TWTool/TWMasonry (= 0.0.17)
+    - TWTool/TWSegmentView (= 0.0.17)
+    - TWTool/TWTest1 (= 0.0.17)
+    - TWTool/TWUI (= 0.0.17)
+  - TWTool/TWDatePicker (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWFoundation (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSArray (= 0.0.17)
+    - TWTool/TWFoundation/NSData (= 0.0.17)
+    - TWTool/TWFoundation/NSDate (= 0.0.17)
+    - TWTool/TWFoundation/NSDecimalNumber (= 0.0.17)
+    - TWTool/TWFoundation/NSDictionary (= 0.0.17)
+    - TWTool/TWFoundation/NSFileManager (= 0.0.17)
+    - TWTool/TWFoundation/NSObject (= 0.0.17)
+    - TWTool/TWFoundation/NSString (= 0.0.17)
+    - TWTool/TWFoundation/Prefix (= 0.0.17)
+    - TWTool/TWFoundation/TWAssistant (= 0.0.17)
+  - TWTool/TWFoundation/NSArray (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSObject
+    - TWTool/TWFoundation/Prefix
+  - TWTool/TWFoundation/NSData (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWFoundation/NSDate (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSString
+  - TWTool/TWFoundation/NSDecimalNumber (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSObject
+  - TWTool/TWFoundation/NSDictionary (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSObject
+    - TWTool/TWFoundation/Prefix
+  - TWTool/TWFoundation/NSFileManager (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWFoundation/NSObject (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWFoundation/NSString (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSObject
+    - TWTool/TWFoundation/Prefix
+  - TWTool/TWFoundation/Prefix (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWFoundation/TWAssistant (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/Prefix
+  - TWTool/TWMasonry (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWSegmentView (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWUI/UIView
+  - TWTool/TWTest1 (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWUI/IToast (= 0.0.17)
+    - TWTool/TWUI/ProgressView (= 0.0.17)
+    - TWTool/TWUI/Response (= 0.0.17)
+    - TWTool/TWUI/UIAlertController (= 0.0.17)
+    - TWTool/TWUI/UIButton (= 0.0.17)
+    - TWTool/TWUI/UIDevice (= 0.0.17)
+    - TWTool/TWUI/UIImage (= 0.0.17)
+    - TWTool/TWUI/UILabel (= 0.0.17)
+    - TWTool/TWUI/UINavigationController (= 0.0.17)
+    - TWTool/TWUI/UIScrollView (= 0.0.17)
+    - TWTool/TWUI/UITableView (= 0.0.17)
+    - TWTool/TWUI/UITextField (= 0.0.17)
+    - TWTool/TWUI/UITextView (= 0.0.17)
+    - TWTool/TWUI/UIView (= 0.0.17)
+    - TWTool/TWUI/UIViewController (= 0.0.17)
+  - TWTool/TWUI/IToast (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSString
+  - TWTool/TWUI/ProgressView (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/Response (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/UIAlertController (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/UIButton (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSString
+    - TWTool/TWUI/UIView
+  - TWTool/TWUI/UIDevice (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSString
+  - TWTool/TWUI/UIImage (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/UILabel (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSObject
+    - TWTool/TWFoundation/NSString
+    - TWTool/TWUI/UIView
+  - TWTool/TWUI/UINavigationController (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/UIScrollView (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/UITableView (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/UITextField (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSObject
+    - TWTool/TWFoundation/NSString
+  - TWTool/TWUI/UITextView (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/UIView (0.0.17):
+    - Masonry (= 1.1.0)
+  - TWTool/TWUI/UIViewController (0.0.17):
+    - Masonry (= 1.1.0)
+    - TWTool/TWFoundation/NSObject
+    - TWTool/TWFoundation/NSString
+    - TWTool/TWFoundation/Prefix
 
 DEPENDENCIES:
   - FBSnapshotTestCase
+  - Masonry
   - TWTool (from `../`)
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - Masonry
 
 EXTERNAL SOURCES:
   TWTool:
@@ -20,8 +139,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  TWTool: efdd505b6894f451950e8727ab26ebbbd61821fd
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  TWTool: 9949fc6ee736cedbbce793987a33069c2f2b8997
 
-PODFILE CHECKSUM: b351eca172875c5d6d0cb9ec2271406b59ad19a2
+PODFILE CHECKSUM: 17784e864a2d3ebd47ece3d20cb5393ee6484da0
 
 COCOAPODS: 1.10.1

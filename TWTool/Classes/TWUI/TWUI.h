@@ -14,6 +14,13 @@
  */
 
 
+#import "UIImage+twCreate.h"
+#import "UIImage+twGradient.h"
+#import "UIImage+twRead.h"
+#import "UIImage+twSave.h"
+#import "UIImage+twTool.h"
+
+
 #import "UILabel+twFormat.h"
 #import "UILabel+twInsets.h"
 #import "UILabel+twSize.h"

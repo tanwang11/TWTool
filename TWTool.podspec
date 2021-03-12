@@ -172,6 +172,14 @@ Pod::Spec.new do |s|
         sss.source_files = 'TWTool/Classes/TWUI/UILabel/*.{h,m}'
     end
     
+    ss.subspec 'UIImage' do |sss|
+        # 需要引入的其他文件的的 .h 文件
+#        sss.dependency  'TWTool/TWFoundation/NSObject'
+#        sss.dependency  'TWTool/TWFoundation/NSString'
+#        sss.dependency  'TWTool/TWUI/UIView'
+        sss.source_files = 'TWTool/Classes/TWUI/UIImage/*.{h,m}'
+    end
+    
     
   end
   
